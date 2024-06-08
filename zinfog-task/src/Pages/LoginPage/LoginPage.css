@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.loginPage {
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)),
+    url("../../images/Background\ Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.log-main {
+  border-radius: 30px;
+  width: 30%;
+  position: relative;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.log-form {
+  border-radius: 10px;
+  width: 70%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.log-img {
+  width: 35%;
+}
+.log-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+.log-icon2 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+}
+
+.log-clr {
+  color: rgb(41, 137, 185);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.log-inp {
+  width: 90%;
+}
+.log-inp label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.log-inp input {
+  width: 100%;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  padding: 5px;
+  outline: none;
+}
+
+.log-btn {
+  width: 40%;
+  border: none;
+  border-radius: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(41, 137, 185);
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.log-form-link {
+  color: #505050;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+
+.phone {
+  color: rgb(41, 137, 185);
+  font-weight: 700;
+  font-size: 16px;
+  position: relative;
+  /* background-color: red; */
+}
+
+.log-icon3 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -140px;
+  top: -20px;
+}
+
+.log-privacy {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #505050;
+  font-size: 10px;
+}
+
+
+.error-message{
+  color: red;
+  text-decoration: underline;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* color: #505050;
+  font-size: 10px; */
+}
